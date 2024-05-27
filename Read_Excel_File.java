@@ -13,7 +13,7 @@ public class Read_Excel_File
 {
     public static Map<Integer,String> Store_XL_Data_in_Hashmap() throws IOException
     {
-        FileInputStream file = new FileInputStream("C:/Users/anshumanm/Downloads/Pet_Details.xlsx");
+        FileInputStream file = new FileInputStream("C:\Users\ruchim\Desktop\Pet_Details.xlsx");
         XSSFWorkbook wb = new XSSFWorkbook(file);
         XSSFSheet sh = wb.getSheet("Sheet1");
         Map<Integer, String> pet_details_map = new HashMap<>();
